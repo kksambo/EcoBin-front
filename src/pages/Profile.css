@@ -1,0 +1,139 @@
+.main-container {
+  background-color: #1e1e2f;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #f0f0f0;
+  font-family: "Arial", sans-serif;
+}
+
+.navbar {
+  background-color: #2e2e3e;
+  border-bottom: 2px solid #00bcd4;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #00bcd4 !important;
+}
+
+.nav-link {
+  color: #f0f0f0 !important;
+}
+
+.nav-link:hover {
+  color: #00bcd4 !important;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.profile-card {
+  background-color: #2e2e3e;
+  padding: 2.5rem;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 0 30px rgba(0, 188, 212, 0.15);
+  text-align: center;
+}
+
+.profile-title {
+  font-size: 2.2rem;
+  color: #00bcd4;
+  margin-bottom: 0.3rem;
+}
+
+.username-highlight {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 1.1rem;
+  color: #b0bec5;
+  margin-bottom: 2rem;
+}
+
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-box {
+  background-color: #1e1e2f;
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1 1 150px;
+  min-width: 140px;
+  text-align: center;
+  border: 1px solid #4caf50;
+}
+
+.info-box span {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  background-color: #4caf50;
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.encouragement {
+  color: #b0bec5;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.profile-actions {
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #00bcd4;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0097a7;
+}
+
+.btn-secondary {
+  background-color: #ff9800;
+  border: none;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #f57c00;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.loading,
+.error {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  color: #b0bec5;
+}

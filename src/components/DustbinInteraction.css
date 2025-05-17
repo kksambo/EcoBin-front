@@ -1,0 +1,99 @@
+.dustbin-interaction {
+    background-color: #1e1e2f; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    min-height: 100vh;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    padding: 2rem;
+  }
+  
+  .dustbin-interaction h2 {
+    font-size: 2rem;
+    color: #00bcd4; /* Complementary cyan color */
+    margin-bottom: 1rem;
+  }
+  
+  .image-upload {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .image-upload label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #b0bec5; /* Muted light gray */
+  }
+  
+  .image-upload input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e2e3e; /* Slightly lighter dark background */
+    color: #f0f0f0;
+    font-size: 1rem;
+  }
+  
+  .image-upload input:focus {
+    outline: none;
+    border: 2px solid #00bcd4; /* Cyan border on focus */
+  }
+  
+  .dustbin-interaction .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #00bcd4;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0097a7;
+  }
+  
+  .bin-animation {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .bin-animation img {
+    width: 200px;
+    height: auto;
+    animation: fade-in-out 2s ease-in-out;
+  }
+  
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .classification-result {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: #4caf50; /* Green for success */
+  }
+  
+  .error {
+    color: #ff5252; /* Red for error messages */
+    margin-top: 1rem;
+    font-weight: bold;
+  }

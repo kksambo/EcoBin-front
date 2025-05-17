@@ -1,0 +1,108 @@
+.login-container {
+    background-color: #1e1e2f; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    /*
+        
+    
+     
+    */
+    display: block;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: "Arial", sans-serif;
+    padding: 2rem;
+  }
+  
+  .login-container h2 {
+    font-size: 2rem;
+    color: #00bcd4; /* Complementary cyan color */
+    margin-bottom: 1rem;
+  }
+  
+  .login-container .form-group {
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #b0bec5; /* Muted light gray */
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e2e3e; /* Slightly lighter dark background */
+    color: #f0f0f0;
+    font-size: 1rem;
+  }
+  
+  .login-container input:focus {
+    outline: none;
+    border: 2px solid #00bcd4; /* Cyan border on focus */
+  }
+  
+  .login-container .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #00bcd4;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0097a7;
+  }
+  
+  .btn-secondary {
+    background-color: #ff9800;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #f57c00;
+  }
+  
+  .btn-link {
+    background: none;
+    border: none;
+    color: #00bcd4;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .btn-link:hover {
+    color: #0097a7;
+  }
+  
+  .login-container .error {
+    color: #ff5252; /* Red for error messages */
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .login-actions {
+    margin-top: 1rem;
+  
+    justify-content: center; /* Align buttons horizontally */
+    gap: 1rem; /* Add spacing between buttons */
+  }
+
+ 
