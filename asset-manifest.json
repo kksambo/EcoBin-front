@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EcoBin-front/static/css/main.f4e1654d.css",
+    "main.js": "/EcoBin-front/static/js/main.08a9732f.js",
+    "static/js/453.e18159ad.chunk.js": "/EcoBin-front/static/js/453.e18159ad.chunk.js",
+    "static/media/binGif.gif": "/EcoBin-front/static/media/binGif.33ff1bca07e7a06ecb1e.gif",
+    "index.html": "/EcoBin-front/index.html",
+    "main.f4e1654d.css.map": "/EcoBin-front/static/css/main.f4e1654d.css.map",
+    "main.08a9732f.js.map": "/EcoBin-front/static/js/main.08a9732f.js.map",
+    "453.e18159ad.chunk.js.map": "/EcoBin-front/static/js/453.e18159ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4e1654d.css",
+    "static/js/main.08a9732f.js"
+  ]
+}
