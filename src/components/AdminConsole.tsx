@@ -34,7 +34,7 @@ function AdminConsole() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/smartbins")
+    fetch("https://ecobin-back.onrender.com/api/smartbins")
       .then((res) => res.json())
       .then((data) => {
         setBinData(data);
@@ -44,7 +44,7 @@ function AdminConsole() {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/deposit")
+    fetch("https://ecobin-back.onrender.com/api/deposit")
       .then((res) => res.json())
       .then((data) => setDepositData(data))
       .catch(() => setDepositData([]));
